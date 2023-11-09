@@ -9,8 +9,16 @@
 #SBATCH --job-name="All_3FastQC"
 
 
-cd /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri
+cd /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/LncRNAs
 
 module load UHTS/Quality_control/fastqc/0.11.9
 
-fastqc *.fastq.gz
+for file in /data/courses/rnaseq_course/lncRNAs/fastq/3*.fastq.gz
+do 
+    fastqc $file
+done
+
+for file in /data/courses/rnaseq_course/lncRNAs/fastq/*fastqc*
+do 
+    mv $file /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/LncRNAs
+done
