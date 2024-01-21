@@ -54,3 +54,10 @@ do
     gunzip -l $file >> Volume_of_data.txt
 done
 
+###Number of reads per file
+echo -e "\n###Number of reads per file:" >> Volume_of_data.txt
+for file in /data/courses/rnaseq_course/lncRNAs/fastq/[P3]*.fastq.gz
+do
+    echo -e "\t Number of reads for the $file file : " >> Volume_of_data.txt
+    zcat $file | grep + | wc -l >> Volume_of_data.txt
+done
