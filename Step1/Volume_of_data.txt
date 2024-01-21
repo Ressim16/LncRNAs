@@ -1,0 +1,53 @@
+###Number of lines per file :
+11669175 /data/courses/rnaseq_course/lncRNAs/fastq/3_2_L3_R1_001_DID218YBevN6.fastq.gz
+13172174 /data/courses/rnaseq_course/lncRNAs/fastq/3_2_L3_R2_001_UPhWv8AgN1X1.fastq.gz
+10856789 /data/courses/rnaseq_course/lncRNAs/fastq/3_4_L3_R1_001_QDBZnz0vm8Gd.fastq.gz
+11831659 /data/courses/rnaseq_course/lncRNAs/fastq/3_4_L3_R2_001_ng3ASMYgDCPQ.fastq.gz
+11021905 /data/courses/rnaseq_course/lncRNAs/fastq/3_7_L3_R1_001_Tjox96UQtyIc.fastq.gz
+12107805 /data/courses/rnaseq_course/lncRNAs/fastq/3_7_L3_R2_001_f60CeSASEcgH.fastq.gz
+11601402 /data/courses/rnaseq_course/lncRNAs/fastq/P1_L3_R1_001_9L0tZ86sF4p8.fastq.gz
+12320881 /data/courses/rnaseq_course/lncRNAs/fastq/P1_L3_R2_001_yd9NfV9WdvvL.fastq.gz
+11570650 /data/courses/rnaseq_course/lncRNAs/fastq/P2_L3_R1_001_R82RphLQ2938.fastq.gz
+12232366 /data/courses/rnaseq_course/lncRNAs/fastq/P2_L3_R2_001_06FRMIIGwpH6.fastq.gz
+11659881 /data/courses/rnaseq_course/lncRNAs/fastq/P3_L3_R1_001_fjv6hlbFgCST.fastq.gz
+12150600 /data/courses/rnaseq_course/lncRNAs/fastq/P3_L3_R2_001_xo7RBLLYYqeu.fastq.gz
+
+###Volume of data [GB] per file :
+2.8G /data/courses/rnaseq_course/lncRNAs/fastq/3_2_L3_R1_001_DID218YBevN6.fastq.gz
+3.1G /data/courses/rnaseq_course/lncRNAs/fastq/3_2_L3_R2_001_UPhWv8AgN1X1.fastq.gz
+2.6G /data/courses/rnaseq_course/lncRNAs/fastq/3_4_L3_R1_001_QDBZnz0vm8Gd.fastq.gz
+2.8G /data/courses/rnaseq_course/lncRNAs/fastq/3_4_L3_R2_001_ng3ASMYgDCPQ.fastq.gz
+2.7G /data/courses/rnaseq_course/lncRNAs/fastq/3_7_L3_R1_001_Tjox96UQtyIc.fastq.gz
+2.9G /data/courses/rnaseq_course/lncRNAs/fastq/3_7_L3_R2_001_f60CeSASEcgH.fastq.gz
+2.7G /data/courses/rnaseq_course/lncRNAs/fastq/P1_L3_R1_001_9L0tZ86sF4p8.fastq.gz
+2.9G /data/courses/rnaseq_course/lncRNAs/fastq/P1_L3_R2_001_yd9NfV9WdvvL.fastq.gz
+2.7G /data/courses/rnaseq_course/lncRNAs/fastq/P2_L3_R1_001_R82RphLQ2938.fastq.gz
+2.9G /data/courses/rnaseq_course/lncRNAs/fastq/P2_L3_R2_001_06FRMIIGwpH6.fastq.gz
+2.8G /data/courses/rnaseq_course/lncRNAs/fastq/P3_L3_R1_001_fjv6hlbFgCST.fastq.gz
+2.9G /data/courses/rnaseq_course/lncRNAs/fastq/P3_L3_R2_001_xo7RBLLYYqeu.fastq.gz
+
+###Volume and ratio of zipped and decompressed file:
+         compressed        uncompressed  ratio uncompressed_name
+         2968068714                8856 -33514677.4% /data/courses/rnaseq_course/lncRNAs/fastq/3_2_L3_R1_001_DID218YBevN6.fastq
+         compressed        uncompressed  ratio uncompressed_name
+         3255857198                7738 -42076110.5% /data/courses/rnaseq_course/lncRNAs/fastq/3_2_L3_R2_001_UPhWv8AgN1X1.fastq
+         compressed        uncompressed  ratio uncompressed_name
+         2759349340               49885 -5531320.9% /data/courses/rnaseq_course/lncRNAs/fastq/3_4_L3_R1_001_QDBZnz0vm8Gd.fastq
+         compressed        uncompressed  ratio uncompressed_name
+         2972905796               49137 -6050138.7% /data/courses/rnaseq_course/lncRNAs/fastq/3_4_L3_R2_001_ng3ASMYgDCPQ.fastq
+         compressed        uncompressed  ratio uncompressed_name
+         2801705617               30612 -9152211.5% /data/courses/rnaseq_course/lncRNAs/fastq/3_7_L3_R1_001_Tjox96UQtyIc.fastq
+         compressed        uncompressed  ratio uncompressed_name
+         3022667892               29531 -10235475.7% /data/courses/rnaseq_course/lncRNAs/fastq/3_7_L3_R2_001_f60CeSASEcgH.fastq
+         compressed        uncompressed  ratio uncompressed_name
+         2893735313                5166 -56014907.5% /data/courses/rnaseq_course/lncRNAs/fastq/P1_L3_R1_001_9L0tZ86sF4p8.fastq
+         compressed        uncompressed  ratio uncompressed_name
+         3038726056                4048 -75067242.6% /data/courses/rnaseq_course/lncRNAs/fastq/P1_L3_R2_001_yd9NfV9WdvvL.fastq
+         compressed        uncompressed  ratio uncompressed_name
+         2896325782               46480 -6231237.7% /data/courses/rnaseq_course/lncRNAs/fastq/P2_L3_R1_001_R82RphLQ2938.fastq
+         compressed        uncompressed  ratio uncompressed_name
+         3025945457               46060 -6569473.2% /data/courses/rnaseq_course/lncRNAs/fastq/P2_L3_R2_001_06FRMIIGwpH6.fastq
+         compressed        uncompressed  ratio uncompressed_name
+         2917061258               18812 -15506285.5% /data/courses/rnaseq_course/lncRNAs/fastq/P3_L3_R1_001_fjv6hlbFgCST.fastq
+         compressed        uncompressed  ratio uncompressed_name
+         3023355848               18448 -16388429.0% /data/courses/rnaseq_course/lncRNAs/fastq/P3_L3_R2_001_xo7RBLLYYqeu.fastq
