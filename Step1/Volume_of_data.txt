@@ -54,26 +54,26 @@
 
 ###Number of reads per file:
 	 Number of reads for the /data/courses/rnaseq_course/lncRNAs/fastq/3_2_L3_R1_001_DID218YBevN6.fastq.gz file : 
-70876874
+35438437
 	 Number of reads for the /data/courses/rnaseq_course/lncRNAs/fastq/3_2_L3_R2_001_UPhWv8AgN1X1.fastq.gz file : 
-70876874
+35438437
 	 Number of reads for the /data/courses/rnaseq_course/lncRNAs/fastq/3_4_L3_R1_001_QDBZnz0vm8Gd.fastq.gz file : 
-66884654
+33442327
 	 Number of reads for the /data/courses/rnaseq_course/lncRNAs/fastq/3_4_L3_R2_001_ng3ASMYgDCPQ.fastq.gz file : 
-66884654
+33442327
 	 Number of reads for the /data/courses/rnaseq_course/lncRNAs/fastq/3_7_L3_R1_001_Tjox96UQtyIc.fastq.gz file : 
-67490956
+33745478
 	 Number of reads for the /data/courses/rnaseq_course/lncRNAs/fastq/3_7_L3_R2_001_f60CeSASEcgH.fastq.gz file : 
-67490956
+33745478
 	 Number of reads for the /data/courses/rnaseq_course/lncRNAs/fastq/P1_L3_R1_001_9L0tZ86sF4p8.fastq.gz file : 
-65680704
+32840352
 	 Number of reads for the /data/courses/rnaseq_course/lncRNAs/fastq/P1_L3_R2_001_yd9NfV9WdvvL.fastq.gz file : 
-65680704
+32840352
 	 Number of reads for the /data/courses/rnaseq_course/lncRNAs/fastq/P2_L3_R1_001_R82RphLQ2938.fastq.gz file : 
-65789052
+32894526
 	 Number of reads for the /data/courses/rnaseq_course/lncRNAs/fastq/P2_L3_R2_001_06FRMIIGwpH6.fastq.gz file : 
-65789052
+32894526
 	 Number of reads for the /data/courses/rnaseq_course/lncRNAs/fastq/P3_L3_R1_001_fjv6hlbFgCST.fastq.gz file : 
-66829752
+33414876
 	 Number of reads for the /data/courses/rnaseq_course/lncRNAs/fastq/P3_L3_R2_001_xo7RBLLYYqeu.fastq.gz file : 
-66829752
+33414876
