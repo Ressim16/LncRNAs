@@ -1,0 +1,7 @@
+Number of transcripts : 263701
+Number of exons : 1763484
+Number of genes : 60070
+Number of novel transcript : 10920
+Number of novel exon (single exon) : 115342
+Number of single exon gene : 22537
+Number of single exon transcript : 26682
