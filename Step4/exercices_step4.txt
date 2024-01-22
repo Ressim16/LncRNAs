@@ -1,0 +1,44 @@
+Quantification quality analysis :
+### 1) We are using counts expression and also tmp units to quantify each biological replicate.
+## The transcript and gene level expression tables are under /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/
+## where each cell has its own directory : e.g the 3_2 cell has the directory ./3_2 with the corresponding table expression in the .tsv format
+
+### 2) TPM Values :
+The TPM sum of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/3_2 file is : 1e+06
+The TPM sum of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/3_4 file is : 1e+06
+The TPM sum of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/3_7 file is : 1e+06
+The TPM sum of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/P1 file is : 1e+06
+The TPM sum of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/P2 file is : 1e+06
+The TPM sum of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/P3 file is : 1e+06
+
+### 3) Transcripts detected :
+The number of Transcripts of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/3_2 file is : 115945
+The number of Transcripts of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/3_4 file is : 112933
+The number of Transcripts of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/3_7 file is : 113565
+The number of Transcripts of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/P1 file is : 114750
+The number of Transcripts of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/P2 file is : 115690
+The number of Transcripts of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/P3 file is : 116311
+
+### 3) Genes detected :
+The number of Genes of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/3_2 file is : 49905
+The number of Genes of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/3_4 file is : 48324
+The number of Genes of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/3_7 file is : 48453
+The number of Genes of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/P1 file is : 49566
+The number of Genes of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/P2 file is : 49683
+The number of Genes of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/P3 file is : 50290
+
+### 4) Novel Transcripts detected :
+The number of Novel Transcripts of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/3_2 file is : 8671
+The number of Novel Transcripts of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/3_4 file is : 8426
+The number of Novel Transcripts of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/3_7 file is : 8577
+The number of Novel Transcripts of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/P1 file is : 8567
+The number of Novel Transcripts of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/P2 file is : 8611
+The number of Novel Transcripts of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/P3 file is : 8599
+
+### 4) Novel Genes detected :
+The number of Novel Transcripts of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/3_2 file is : 2056
+The number of Novel Transcripts of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/3_4 file is : 2009
+The number of Novel Transcripts of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/3_7 file is : 2028
+The number of Novel Transcripts of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/P1 file is : 2035
+The number of Novel Transcripts of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/P2 file is : 2041
+The number of Novel Transcripts of the /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4/P3 file is : 2042
