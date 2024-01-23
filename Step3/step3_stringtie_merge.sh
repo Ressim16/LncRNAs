@@ -53,3 +53,4 @@ awk -F $'\t' '{print $9}' gencode.v44.primary_assembly.annotation.gtf | awk -F '
 sort TranscriptID_GeneName.txt > TranscriptID_GeneName.sorted
 sort TranscriptID_GeneType.txt > TranscriptID_GeneType.sorted
 join TranscriptID_GeneName.sorted TranscriptID_GeneType.sorted > target_mapping.txt
+uniq target_mapping.txt > target_mapping_only.txt #remove dupplicates
