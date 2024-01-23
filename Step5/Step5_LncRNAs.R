@@ -4,7 +4,7 @@ setwd("C:/Users/redaz/Documents/Uni/Master/RNA-seq/Steps/Step5/")
 #load exp design and label kallisto outputs
 base_dir <- "C:/Users/redaz/Documents/Uni/Master/RNA-seq/Steps/Step5/samples_step4/"
 sample_id <- c("3_2","3_4","3_7","P1","P2","P3")
-conditions<-c("Paraclonal", "Paraclonal", "Paraclonal", "Parental", "Parental", "Parental")
+conditions<-c("Paraclonal", "Paraclonal", "Paraclonal", "control", "control", "control")
 kal_dirs<-file.path(base_dir, sample_id)
 
 #creating data.frame with path directory where files from kallisto are, and their conditions (Parental or Paraclonal here)
@@ -13,8 +13,8 @@ s2c <- dplyr::mutate(s2c, path = kal_dirs)
 
 
 
-library(biomaRt)
-library(BiocFileCache)
+#library(biomaRt)
+#library(BiocFileCache)
 #collecting target ID to implement it into the so object (install biomart with bioconductor first, must have at least 4.3 version of R)
 #mart <- biomaRt::useMart(biomart = "ENSEMBL_MART_ENSEMBL",dataset = "hsapiens_gene_ensembl", host = "https://ensembl.org")
 
@@ -37,13 +37,13 @@ so <- sleuth_fit(so, ~condition, 'full')
 #estimate parameters for the sleuth reduced model --> (reduced)
 so <- sleuth_fit(so, ~1, 'reduced')
 #perform DE analysis test using the Wald test (AND NOT THE LIKELIHOOD)
-so <- sleuth_wt(so, 'conditionParental')
+so <- sleuth_wt(so, 'conditionParaclonal')
 
 ###Examining results
 #Viewing models() function
 models(so)
 #Viewing test's results
-sleuth_table <- sleuth_results(so,'conditionParental', show_all = F) #show_all = F does not display the genes that we didn't detect (we delete NA values)
+sleuth_table <- sleuth_results(so,'conditionParaclonal', show_all = F) #show_all = F does not display the genes that we didn't detect (we delete NA values)
 sleuth_table_Known<-sleuth_table[!is.na(sleuth_table$gene_type),] #for known genes
 sleuth_table_Novel<-sleuth_table[is.na(sleuth_table$gene_type),] #for new genes
 #sleuth_table$log10qval<--log10(sleuth_table$qval)
@@ -100,7 +100,7 @@ plot_group_density(so, use_filtered = TRUE, units = "est_counts",
 ### Quality check: Do known/expected genes change as expected?
 #we can analyse the volcano plot for known genes and 
 # check if the genes are differntially expressed in lung cancer 
-# e.g CXCL8 == ENST00000307407.8 (downregulated) and MYO10 == ENST00000513610.6 (upregulated) 
+# e.g CXCL8 == ENST00000307407.8 (upregulated) and MYO10 == ENST00000513610.6 (downregulated) 
 # also EGFR or MALAT1 that are already well known in cancer implicaitons
 
 
