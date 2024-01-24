@@ -1,0 +1,10 @@
+### all the ouput files are under : /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step6 
+----- Question 1 -----
+TSS (5' sites) percentage of transcripts : 80.89800%
+TES (3' sites) percentage of transcripts : 81.37400%
+
+----- Question 2 -----
+Percentage of novel transcripts that are protein coding : 4.33400%
+
+----- Question 3 -----
+Number of novel 'intergenic' genes identified : 230
