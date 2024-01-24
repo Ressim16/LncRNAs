@@ -35,23 +35,10 @@ done
 
 ###The volume and amount of data are showed with the help of bash/awk
 touch Volume_of_data.txt
-echo -e "###Number of lines per file :" > Volume_of_data.txt
-
-for file in /data/courses/rnaseq_course/lncRNAs/fastq/[P3]*.fastq.gz
-do 
-    wc -l $file >> Volume_of_data.txt
-done
-
-echo -e "\n###Volume of data [GB] per file :" >> Volume_of_data.txt
+echo -e "###Volume of data [GB] per file :" > Volume_of_data.txt
 for file in /data/courses/rnaseq_course/lncRNAs/fastq/[P3]*.fastq.gz
 do
     ls -sh $file >> Volume_of_data.txt
-done
-
-echo -e "\n###Volume and ratio of zipped and decompressed file:" >> Volume_of_data.txt
-for file in /data/courses/rnaseq_course/lncRNAs/fastq/[P3]*.fastq.gz
-do
-    gunzip -l $file >> Volume_of_data.txt
 done
 
 ###Number of reads per file
