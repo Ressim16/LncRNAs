@@ -41,11 +41,49 @@ Files used with R locally are all pushed into this GitHub project (step 5 and 7)
   - output_slurm_FASTQC-11926190.o
 
 #### 2) Read mapping : /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step2
+  - SAM_3_2.bam
+  - SAM_3_2.sam
+  - SAM_3_4.bam
+  - SAM_3_4.sam
+  - SAM_3_7.bam
+  - SAM_3_7.sam
+  - SAM_P1.bam
+  - SAM_P1.sam
+  - SAM_P2.bam
+  - SAM_P2.sam
+  - SAM_P3.bam
+  - SAM_P3.sam
 
+  - BAM_3_2.sorted.bam
+  - BAM_3_4.sorted.bam
+  - BAM_3_7.sorted.bam
+  - BAM_P1.sorted.bam
+  - BAM_P2.sorted.bam
+  - BAM_P3.sorted.bam
+
+  - error_slurm_BAM_Index-12023249.e
+  - error_slurm_HISAT2-11921377.e
+  - output_slurm_BAM_Index-12023249.o
+  - output_slurm_HISAT2-11921377.o
+  - step2_mapping.sh
+  - step2_SAM_to_BAM.sh
 
 
 #### 3) Transcriptome assembly : /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step3
+  - Transcripts_3_2.gtf
+  - Transcripts_3_4.gtf
+  - Transcripts_3_7.gtf
+  - Transcripts_P1.gtf
+  - Transcripts_P2.gtf
+  - Transcripts_P3.gtf
+  - ALL_cells_merged.gtf
 
+  - exercices.txt
+  - gencode.v44.primary_assembly.annotation.gtf
+  - target_mapping_only.txt
+  - step3_exercices.sh
+  - step3_stringtie_assembly.sh
+  - step3_stringtie_merge.sh
 
 #### 4) Quantification : /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4
 
