@@ -5,6 +5,7 @@
 Group 1 : Analysis of Paraclonala and Parental cell types.
 
 All the files and outputs obtained while using modules from vital-it and/or analyzing in Bash are located in the IBU cluster under : /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri
+
 Files used with R locally are all pushed into this GitHub project (step 5 and 7)
 
 ### Content of the different folders in the IBU cluster : (relevant for the processes during the report)
