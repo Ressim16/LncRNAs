@@ -68,7 +68,6 @@ Files used with R locally are all pushed into this GitHub project (step 5 and 7)
   - step2_mapping.sh
   - step2_SAM_to_BAM.sh
 
-
 #### 3) Transcriptome assembly : /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step3
   - Transcripts_3_2.gtf
   - Transcripts_3_4.gtf
@@ -86,13 +85,56 @@ Files used with R locally are all pushed into this GitHub project (step 5 and 7)
   - step3_stringtie_merge.sh
 
 #### 4) Quantification : /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4
-
+Each replicates has its own folder with the following files : abundance.h5, abundance.tsv, run_info.json
+  - all_transcripts.fasta
+  - all_transcripts.index
+  - error_slurm_Exos-12444859.e
+  - error_slurm_Kallisto-11953704.e
+  - exercices_step4.txt
+  - output_slurm_Exos-12444859.o
+  - output_slurm_Kallisto-11953704.o
+  - step4_exercices.sh
+  - step4_Kallisto.sh
+  - 
 #### 5) Differential expression : -
+The step 5 has been made locally in R studio, the files are located in the Step5 folder in this GitHub project
 
 #### 6) Integrative analysis  : /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step6
-
+Bedfiles and Intergenic part :  
+  - Intergenic_novel.bed
+  - error_slurm_BedFIles-12008209.e
+  - output_slurm_BedFiles-12008209.o
+  - All_Transcripts.bed
+  - Annot_Transcripts.bed
+  - New_Transcripts.bed
+  - step6_BedFiles.sh
+  - error_slurm_BedFIles-12008209.e
+  - output_slurm_BedFiles-12008209.o
+Window and Overlapping part :
+  - TES_novel.bed
+  - TSS_novel.bed
+  - Overlap_end.bed
+  - Overlap_start.bed
+  - step6_Overlap.sh
+  - error_slurm_Overlap-11992776.e
+  - output_slurm_Overlap-11992776.o
+CPAT part :
+  - REF_New_Transcripts.fa
+  - New_Potential_Coding.dat
+  - New_Potential_Coding.r
+  - New_Transcripts.bed
+  - step6_CPAT.sh
+  - error_slurm_CPAT-11994619.e
+  - output_slurm_CPAT-11994619.o
+Answers for report :
+  - step6_Questions.sh
+  - Questions_Step6.txt
 #### 7) Prioritization : /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step7
-
+  - error_slurm_Potential-12467422.e
+  - Intergenic_novel.bed
+  - output_slurm_Potential-12467422.o
+  - Pot_and_Intergenic.txt
+  - step7_intergenic_pot_lncRNas.sh
 
 
 
