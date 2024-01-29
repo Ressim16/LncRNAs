@@ -7,7 +7,9 @@ Group 1 : Analysis of Paraclonala and Parental cell types.
 All the files and outputs obtained while using modules from vital-it and/or analyzing in Bash are located in the IBU cluster under : /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri
 Files used with R locally are all pushed into this GitHub project (step 5 and 7)
 
-### Content of the different folders in the IBU cluster :
+### Content of the different folders in the IBU cluster : (relevant for the processes during the report)
+Indeed, many output files were made from error while progressing and ameliorating in the steps analysis
+
 #### 1) Read quality : /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step1
   - 3_2_L3_R1_001_DID218YBevN6_fastqc.html
   - 3_2_L3_R1_001_DID218YBevN6_fastqc.zip
@@ -95,7 +97,7 @@ Each replicates has its own folder with the following files : abundance.h5, abun
   - output_slurm_Kallisto-11953704.o
   - step4_exercices.sh
   - step4_Kallisto.sh
-  - 
+
 #### 5) Differential expression : -
 The step 5 has been made locally in R studio, the files are located in the Step5 folder in this GitHub project
 
@@ -129,6 +131,7 @@ CPAT part :
 Answers for report :
   - step6_Questions.sh
   - Questions_Step6.txt
+
 #### 7) Prioritization : /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step7
   - error_slurm_Potential-12467422.e
   - Intergenic_novel.bed
