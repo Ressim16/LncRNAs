@@ -2,14 +2,14 @@
 ## Master in Bioinformatics, Reda Zahri
 ### Course RNA-sequencing, January 2024
 
-Group 1 : Analysis of Paraclonala and Parental cell types.
+Group 1 : Analysis of Paraclonal and Parental cell types.
 
 All the files and outputs obtained while using modules from vital-it and/or analyzing in Bash are located in the IBU cluster under : /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri
 
 Files used with R locally are all pushed into this GitHub project (step 5 and 7)
 
 ### Content of the different folders in the IBU cluster : (relevant for the processes during the report)
-Indeed, many output files were made from error while progressing and ameliorating in the steps analysis
+Indeed, many output files were made from mistakes and error that helped us progressing in and ameliorating the steps analysis
 
 #### 1) Read quality : /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step1
   - 3_2_L3_R1_001_DID218YBevN6_fastqc.html
@@ -88,7 +88,7 @@ Indeed, many output files were made from error while progressing and amelioratin
   - step3_stringtie_merge.sh
 
 #### 4) Quantification : /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step4
-Each replicates has its own folder with the following files : abundance.h5, abundance.tsv, run_info.json
+Each replicates (3_2, 3_4, 3_7, P1, P2 and P3) has its own folder with the following files : abundance.h5, abundance.tsv, run_info.json
   - all_transcripts.fasta
   - all_transcripts.index
   - error_slurm_Exos-12444859.e
