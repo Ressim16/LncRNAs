@@ -103,6 +103,7 @@ Each replicates (3_2, 3_4, 3_7, P1, P2 and P3) has its own folder with the follo
 The step 5 has been made locally in R studio, the files are located in the Step5 folder in this GitHub project
 
 #### 6) Integrative analysis  : /data/courses/rnaseq_course/lncRNAs/Project2/users/rzahri/step6
+
 Bedfiles and Intergenic part :  
   - Intergenic_novel.bed
   - error_slurm_BedFIles-12008209.e
@@ -113,6 +114,7 @@ Bedfiles and Intergenic part :
   - step6_BedFiles.sh
   - error_slurm_BedFIles-12008209.e
   - output_slurm_BedFiles-12008209.o
+
 Window and Overlapping part :
   - TES_novel.bed
   - TSS_novel.bed
@@ -121,6 +123,7 @@ Window and Overlapping part :
   - step6_Overlap.sh
   - error_slurm_Overlap-11992776.e
   - output_slurm_Overlap-11992776.o
+
 CPAT part :
   - REF_New_Transcripts.fa
   - New_Potential_Coding.dat
@@ -129,6 +132,7 @@ CPAT part :
   - step6_CPAT.sh
   - error_slurm_CPAT-11994619.e
   - output_slurm_CPAT-11994619.o
+
 Answers for report :
   - step6_Questions.sh
   - Questions_Step6.txt
